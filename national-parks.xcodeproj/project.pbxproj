@@ -15,6 +15,8 @@
 		CA200F7F2BAD3E650019CD4E /* national_parksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA200F7E2BAD3E650019CD4E /* national_parksUITests.swift */; };
 		CA200F812BAD3E650019CD4E /* national_parksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA200F802BAD3E650019CD4E /* national_parksUITestsLaunchTests.swift */; };
 		CA200F8E2BAD409F0019CD4E /* ParksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA200F8D2BAD409E0019CD4E /* ParksResponse.swift */; };
+		CA200F902BAD44DD0019CD4E /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA200F8F2BAD44DD0019CD4E /* ParkDetailView.swift */; };
+		CA200F922BAD45200019CD4E /* park_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = CA200F912BAD45200019CD4E /* park_mock.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CA200F7E2BAD3E650019CD4E /* national_parksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = national_parksUITests.swift; sourceTree = "<group>"; };
 		CA200F802BAD3E650019CD4E /* national_parksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = national_parksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CA200F8D2BAD409E0019CD4E /* ParksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksResponse.swift; sourceTree = "<group>"; };
+		CA200F8F2BAD44DD0019CD4E /* ParkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailView.swift; sourceTree = "<group>"; };
+		CA200F912BAD45200019CD4E /* park_mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = park_mock.json; path = ../../../../Downloads/park_mock.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		CA200F612BAD3E640019CD4E /* national-parks */ = {
 			isa = PBXGroup;
 			children = (
+				CA200F912BAD45200019CD4E /* park_mock.json */,
 				CA200F622BAD3E640019CD4E /* national_parksApp.swift */,
 				CA200F642BAD3E640019CD4E /* ContentView.swift */,
+				CA200F8F2BAD44DD0019CD4E /* ParkDetailView.swift */,
 				CA200F662BAD3E650019CD4E /* Assets.xcassets */,
 				CA200F682BAD3E650019CD4E /* national_parks.entitlements */,
 				CA200F692BAD3E650019CD4E /* Preview Content */,
@@ -237,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA200F6B2BAD3E650019CD4E /* Preview Assets.xcassets in Resources */,
+				CA200F922BAD45200019CD4E /* park_mock.json in Resources */,
 				CA200F672BAD3E650019CD4E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +272,7 @@
 				CA200F652BAD3E640019CD4E /* ContentView.swift in Sources */,
 				CA200F8E2BAD409F0019CD4E /* ParksResponse.swift in Sources */,
 				CA200F632BAD3E640019CD4E /* national_parksApp.swift in Sources */,
+				CA200F902BAD44DD0019CD4E /* ParkDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
