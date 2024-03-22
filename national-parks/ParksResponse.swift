@@ -30,9 +30,13 @@ extension Park {
     }
 }
 
-struct ParkImage: Codable {
+struct ParkImage: Codable, Identifiable {
     let title: String
     let caption: String
     let url: String
+    
+    var id: String { // <-- Add id property to conform to Identifiable
+        return url // <-- Use the url string as t he id since it will be unique for a given image
+    }
 }
 
